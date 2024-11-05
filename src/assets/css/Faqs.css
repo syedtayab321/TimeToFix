@@ -1,0 +1,61 @@
+.faq-page {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    padding: 20px;
+}
+
+.faq-page  .faq-header {
+    padding: 60px 20px;
+    background-color: #f0f8ff;
+    text-align: center;
+    color: #1E90FF;
+}
+
+.faq-page  .faq-header .icon {
+    color: #1E90FF;
+}
+
+.faq-page  .faq-header h1 {
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.faq-section {
+    padding: 40px 20px;
+}
+
+.faq-page  .faq-card-header {
+    background-color: #1E90FF;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    padding: 15px;
+    font-size: 1.1rem;
+}
+
+.faq-page .faq-card-header:hover {
+    background-color: #4169E1;
+}
+
+.faq-page .faq-card-header h5 {
+    margin: 0;
+}
+
+.faq-page .card-body {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+    font-size: 0.95rem;
+}
+
+.faq-page .card {
+    margin-bottom: 15px;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-page .card:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+}

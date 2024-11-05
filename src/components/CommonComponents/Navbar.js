@@ -1,16 +1,15 @@
-// Navbar.js
 import React from 'react';
 import logo from '../../assets/images/logo_black.png';
 import '../../assets/css/navbar.css';
-
+import {Link} from 'react-router-dom';
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white custom-navbar">
       <div className="container">
-        <a className="navbar-brand d-flex align-items-center" href="/">
+        <Link className="navbar-brand d-flex align-items-center" to="/">
           <img src={logo} alt="Logo" className="navbar-logo" />
           <span className="navbar-title">Time to Fix it</span>
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -24,50 +23,53 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav ms-auto">
+            <li className="nav-item">
+              <Link className="nav-link" to="/">Home</Link>
+            </li>
             <li className="nav-item dropdown">
-              <a
+              <Link
                 className="nav-link dropdown-toggle"
-                href="#"
+                to="#"
                 id="servicesDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 Services
-              </a>
+              </Link>
               <ul className="dropdown-menu" aria-labelledby="servicesDropdown">
                 <li className="dropdown-submenu">
-                  <a className="dropdown-item dropdown-toggle" href="#">
+                  <Link className="dropdown-item dropdown-toggle" to="/acService">
                     AC Servicing & Repair
-                  </a>
+                  </Link>
                   <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">Residential AC Repair</a></li>
-                    <li><a className="dropdown-item" href="#">Commercial AC Repair</a></li>
+                    <li><Link className="dropdown-item" to="#">Residential AC Repair</Link></li>
+                    <li><Link className="dropdown-item" to="#">Commercial AC Repair</Link></li>
                   </ul>
                 </li>
-                <li><a className="dropdown-item" href="#">Air Conditioning Replacement</a></li>
-                <li><a className="dropdown-item" href="#">Duct Cleaning</a></li>
-                <li><a className="dropdown-item" href="#">Electrical</a></li>
-                <li><a className="dropdown-item" href="#">Plumbing</a></li>
-                <li><a className="dropdown-item" href="#">Painting</a></li>
-                <li><a className="dropdown-item" href="#">Handyman</a></li>
-                <li><a className="dropdown-item" href="#">Water Tank Cleaning</a></li>
+                <li><Link className="dropdown-item" to="#">Air Conditioning Replacement</Link></li>
+                <li><Link className="dropdown-item" to='/DuctCleaningService'>Duct Cleaning</Link></li>
+                <li><Link className="dropdown-item" to="#">Electrical</Link></li>
+                <li><Link className="dropdown-item" to="#">Plumbing</Link></li>
+                <li><Link className="dropdown-item" to="#">Painting</Link></li>
+                <li><Link className="dropdown-item" to="#">Handyman</Link></li>
+                <li><Link className="dropdown-item" to="#">Water Tank Cleaning</Link></li>
               </ul>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Annual Contract</a>
+              <Link className="nav-link" to="#">Annual Contract</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">About</a>
+              <Link className="nav-link" to="/aboutus">About</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">FAQ</a>
+              <Link className="nav-link" to="/faqs">FAQ</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">How We Compare</a>
+              <Link className="nav-link" to="/comparison">How We Compare</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Blog</a>
+              <Link className="nav-link" to="/blogs">Blog</Link>
             </li>
           </ul>
         </div>
