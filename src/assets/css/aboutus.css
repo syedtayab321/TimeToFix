@@ -1,0 +1,9 @@
+.about-us-section {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.about-image {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

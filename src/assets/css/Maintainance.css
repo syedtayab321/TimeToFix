@@ -1,0 +1,67 @@
+.maintenance-stats {
+    background-color: #343a40;
+    color: #f8f9fa;
+    padding: 3rem 0;
+    position: relative;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #ffcc00;
+    text-transform: uppercase;
+}
+
+.stat-icon {
+    font-size: 2rem;
+    color: #ffcc00;
+}
+
+.stat-value {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #ffcc00;
+}
+
+.stat-description {
+    font-size: 1rem;
+    color: #f8f9fa;
+}
+
+.badge-icon {
+    background: #ffcc00;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.quote-button {
+    background-color: #ffcc00;
+    color: #343a40;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.quote-button:hover {
+    background-color: #e6b800;
+}
+
+@media (max-width: 767px) {
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .stat-value {
+        font-size: 1.5rem;
+    }
+}

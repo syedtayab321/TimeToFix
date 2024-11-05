@@ -1,0 +1,64 @@
+
+.home-container {
+  height: 90vh;
+  width: 100%;
+  background-image: url('./../images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.home-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+  text-align: center;
+  border-radius: 10px;
+  max-width: 80%;
+}
+
+.home-title {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.home-subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.home-button {
+  font-size: 1.125rem;
+  padding: 10px 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home-title {
+    font-size: 2rem;
+  }
+
+  .home-subtitle {
+    font-size: 1rem;
+  }
+
+  .home-overlay {
+    padding: 15px 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .home-title {
+    font-size: 1.75rem;
+  }
+
+  .home-subtitle {
+    font-size: 0.875rem;
+  }
+
+  .home-button {
+    font-size: 1rem;
+  }
+}
