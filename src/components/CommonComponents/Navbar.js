@@ -1,10 +1,11 @@
 import React from 'react';
 import logo from '../../assets/images/logo_black.png';
 import '../../assets/css/navbar.css';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-white custom-navbar">
+    <nav className="navbar navbar-expand-lg navbar-light custom-navbar">
       <div className="container">
         <Link className="navbar-brand d-flex align-items-center" to="/">
           <img src={logo} alt="Logo" className="navbar-logo" />
@@ -48,7 +49,7 @@ const Navbar = () => {
                   </ul>
                 </li>
                 <li><Link className="dropdown-item" to="#">Air Conditioning Replacement</Link></li>
-                <li><Link className="dropdown-item" to='/DuctCleaningService'>Duct Cleaning</Link></li>
+                <li><Link className="dropdown-item" to="/DuctCleaningService">Duct Cleaning</Link></li>
                 <li><Link className="dropdown-item" to="#">Electrical</Link></li>
                 <li><Link className="dropdown-item" to="#">Plumbing</Link></li>
                 <li><Link className="dropdown-item" to="#">Painting</Link></li>

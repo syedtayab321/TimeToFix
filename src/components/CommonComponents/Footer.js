@@ -8,26 +8,46 @@ const Footer = () => {
         <footer className="footer">
             <Container maxWidth="lg">
                 <Grid container spacing={4} className="footer-content">
-                    <Grid item xs={12} md={4}>
+                    {/* About Us Section */}
+                    <Grid item xs={12} md={3}>
                         <Typography variant="h6" gutterBottom>
                             About Us
                         </Typography>
                         <Typography variant="body2" color="white">
-                            We are dedicated to providing top-quality services to meet your needs. Our commitment to excellence and customer satisfaction is at the core of our business.
+                            We are committed to providing top-quality services with a focus on customer satisfaction and excellence in everything we do.
                         </Typography>
                     </Grid>
-                    <Grid item xs={12} md={4}>
+
+                    {/* Quick Links Section */}
+                    <Grid item xs={12} md={3}>
                         <Typography variant="h6" gutterBottom>
                             Quick Links
                         </Typography>
                         <ul className="footer-links">
                             <li><Link href="/" color="inherit">Home</Link></li>
-                            <li><Link href="#" color="inherit">About</Link></li>
+                            <li><Link href="#" color="inherit">About Us</Link></li>
                             <li><Link href="#" color="inherit">Services</Link></li>
-                            <li><Link href="#" color="inherit">Contact</Link></li>
+                            <li><Link href="#" color="inherit">FAQs</Link></li>
+                            <li><Link href="#" color="inherit">Contact Us</Link></li>
                         </ul>
                     </Grid>
-                    <Grid item xs={12} md={4}>
+
+                    {/* Services Section */}
+                    <Grid item xs={12} md={3}>
+                        <Typography variant="h6" gutterBottom>
+                            Services
+                        </Typography>
+                        <ul className="footer-links">
+                            <li><Link href="#" color="inherit">AC Repair</Link></li>
+                            <li><Link href="#" color="inherit">Electrical</Link></li>
+                            <li><Link href="#" color="inherit">Plumbing</Link></li>
+                            <li><Link href="#" color="inherit">Painting</Link></li>
+                            <li><Link href="#" color="inherit">Water Tank Cleaning</Link></li>
+                        </ul>
+                    </Grid>
+
+                    {/* Social Media Section */}
+                    <Grid item xs={12} md={3}>
                         <Typography variant="h6" gutterBottom>
                             Follow Us
                         </Typography>
@@ -47,6 +67,8 @@ const Footer = () => {
                         </div>
                     </Grid>
                 </Grid>
+
+                {/* Bottom Copyright Section */}
                 <div className="footer-bottom">
                     <Typography variant="body2" color="white" align="center">
                         © {new Date().getFullYear()} Your Company Name. All rights reserved.

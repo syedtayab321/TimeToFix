@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e54ec0fc-2810-48f4-bb15-da0b12804a72" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/css/Faqs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/acService.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/comparison.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/AcServicePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ComparisonPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/DuctCleaningPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Faqs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CommonComponents/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CommonComponents/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CommonComponents/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CommonComponents/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomePageComponents/AboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePageComponents/AboutUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomePageComponents/HomePageComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePageComponents/HomePageComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Faqs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Faqs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +70,7 @@
       <workItem from="1730784768241" duration="7116000" />
       <workItem from="1730821436855" duration="6290000" />
       <workItem from="1730830859999" duration="897000" />
-      <workItem from="1730843907464" duration="3388000" />
+      <workItem from="1730843907464" duration="5563000" />
     </task>
     <servers />
   </component>

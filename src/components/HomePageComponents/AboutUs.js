@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Typography, Grid, Card, CardMedia, CardContent } from '@mui/material';
+import { Container, Typography, Grid, CardMedia, CardContent } from '@mui/material';
 import './../../assets/css/aboutus.css';
 import image from './../../assets/images/background.jpg';
 const AboutUs = () => {

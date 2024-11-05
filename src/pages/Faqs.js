@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Accordion, Card } from 'react-bootstrap';
+import { Container, Accordion} from 'react-bootstrap';
 import { FaQuestionCircle } from 'react-icons/fa';
 import './../assets/css/Faqs.css';
 
